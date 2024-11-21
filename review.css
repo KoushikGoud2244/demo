@@ -1,0 +1,39 @@
+.review-box {
+    border: 2px solid #eaeaea;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .review {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-info h3 {
+    margin: 0;
+  }
+  
+  .rating {
+    margin: 10px 0;
+  }
+  
+  .rating .star {
+    color: #ffd700;
+  }
+  
+  .comment {
+    font-style: italic;
+  }

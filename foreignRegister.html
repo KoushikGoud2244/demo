@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism & Travel Management System</title>
+    <link rel="stylesheet" type="text/css" href="about.css"/>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        nav ul {
+            list-style: none;
+            background: #333;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        nav ul li a:hover, nav ul li a.active {
+            background: #ff5722;
+            border-radius: 5px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .content {
+            margin-bottom: 20px;
+            color: #666;
+        }
+
+        .product-box {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px auto;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .product-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #ff5722;
+        }
+
+        .content {
+            margin-bottom: 10px;
+            color: #666;
+            text-align: left;
+        }
+
+        .reviews {
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .register-button {
+            background-color: #ff5722;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .register-button:hover {
+            background-color: #ff7043;
+        }
+
+        @media (min-width: 600px) {
+            .product-box {
+                max-width: 45%;
+                margin: 20px 2%;
+            }
+        }
+
+        @media (min-width: 900px) {
+            .container1 {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="tourismview.html">HOME PAGE</a></li>
+        <li><a href="customerlogin.html">CUSTOMER LOGIN</a></li>
+        <li><a href="packages.html" class="active">PACKAGES</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <h2>Discover Your Next Adventure with Our Tourism Packages</h2>
+    <div class="content">
+        <p>What We Offer:</p>
+        <p>Diverse Destinations: Explore a wide range of destinations, from exotic beaches to historic landmarks and cultural hotspots.</p>
+        <p>Tailored Experiences: Our packages are designed to cater to various interests and preferences, ensuring that every traveler finds their perfect adventure.</p>
+        <p>Expert Guidance: Our experienced guides and tour operators are dedicated to providing you with a memorable and hassle-free travel experience.</p>
+    </div>
+
+    <div class="container1">
+        <div class="product-box">
+            <div class="product-title">Foreign Packages</div>
+            <div class="price">Complete package cost: ₹1,00,000</div>
+            <div class="price">Discount: 20%</div>
+            <div class="price">Package after discount: ₹90,000</div>
+            <div class="price">Number of days: 15</div>
+            <div class="content">
+                Explore Exotic Destinations with Our Foreign Packages
+Embark on an unforgettable journey to the world's most captivating destinations with our exclusive foreign packages. Whether you dream of exploring the ancient wonders of Europe, soaking up the sun-kissed beaches of the Caribbean, or immersing yourself in the vibrant cultures of Asia, our meticulously crafted packages offer something for every traveler.
+                </div>
+            <div class="reviews">4.5 stars (100 reviews)</div>
+            <a href="indianRegister.html"><button class="register-button">Register Now</button></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

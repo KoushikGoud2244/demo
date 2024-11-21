@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews</title>   
+
+    <!--Inline-CSS-->
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url("customerA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.menu {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.reviews-container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.review {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.review h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.review p {
+    color: #666;
+    font-size: 14px;
+}
+
+.review span {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color: #999;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+    </style>
+
+</head>
+<body>
+<div class="menu">
+    <ul>
+        <li><a href="tourismview.html">HOME PAGE</a></li>
+        <li><a href="customerlogin.html">CUSTOMER LOGIN</a></li>
+        <li><a href="packages.html">PACKAGES</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+    </ul>
+</div>
+
+<div class="reviews-container">
+    <h2>Customer Reviews</h2>
+    
+    <div class="review">
+        <h3>John Doe</h3>
+        <p>I had an amazing experience! The service was excellent and the package was worth every penny. Highly recommended!</p>
+        <span>Posted on June 1, 2024</span>
+    </div>
+    
+    <div class="review">
+        <h3>Jane Smith</h3>
+        <p>The trip was well-organized and the guides were very knowledgeable. I would definitely book another tour with them.</p>
+        <span>Posted on June 5, 2024</span>
+    </div>
+    
+    <div class="review">
+        <h3>Michael Johnson</h3>
+        <p>Good value for money. The customer support was very helpful and the overall experience was enjoyable.</p>
+        <span>Posted on June 10, 2024</span>
+    </div>
+    
+    <div class="form">
+        <h3>Submit Your Review</h3>
+        <form id="reviewForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+            
+            <label for="review">Review</label>
+            <textarea id="review" name="review" rows="4" placeholder="Write your review here..." required></textarea>
+            
+            <input type="submit" value="Submit Review">
+        </form>
+    </div>
+    
+</div>
+
+</body>
+</html>

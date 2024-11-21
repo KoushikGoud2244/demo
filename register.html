@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" type="text/css" href="registration.css"/>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="tourismview.html">HOME PAGE</a></li>
+        <li><a href="customerlogin.html">CUSTOMER LOGIN</a></li>
+        <li><a href="packages.html">PACKAGES</a></li>
+        <li><a href="register.html" class="active">REGISTER</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <form id="registration-form" method="post" action="registration.php">
+        <h2>User Registration</h2>
+        <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+        <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+        </div>
+        <button type="submit" id="register-btn">Register</button>
+    </form>
+</div>
+</body>
+</html>
